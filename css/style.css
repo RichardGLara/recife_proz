@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-image: linear-gradient(135deg, #11014d, #002b88, #03ad6c);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    color: #222222;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-around;
+    margin-top: 6px ;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    background-color: #222222;
+    color: #dddddd;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-around;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #dddddd;
+}
+
+h2 {
+    margin: 10px;
+}
+
+.corpo {
+    width: 860px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.logo {
+    height: 120px;
+    margin-left: 20px;
+}
+
+.header_texto {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bandeira {
+    height: 100px;
+    margin-bottom: 14px;
+}
+
+.navegacao {
+    background-color: #222222;
+    color: #dddddd;
+    height: 30px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.main_infos {
+    background-color: #00000044;
+    color: #fff;
+    height: auto;
+    min-height: 600px;
+    margin: 5px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.main_infos_texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    margin-bottom: 20px;
+}
+
+.main_infos_img {
+    width: 600px;
+    margin: 4px;
+}
+
+.foot_texto {
+    color: #dddddd;
+    margin: 6px;
+}
+
+.sociais {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.foot_img {
+    height: 34px;
+    margin: 10px;
+}
