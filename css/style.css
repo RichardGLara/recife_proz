@@ -112,6 +112,19 @@ h2 {
     margin: 4px;
 }
 
+.fotos_tour {
+    width: 400px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.main_infos_tour {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
 .foot_texto {
     color: #dddddd;
     margin: 6px;
